@@ -31,26 +31,18 @@ def decode_char(code)
   MORSE_DICT.key(code).upcase
 end
 
-puts decode_char('.-')
-
 def decode_word(string)
   word_array = []
-code = string.split(' ')
-code.each do |char|
-  word_array << decode_char(char)
-end
-word_array.join
-end
-
-puts decode_word('-- -.--')
+  string.split(' ').each {|char| word_array << decode_char(char)}  
+  word_array.join
+end  
 
 def decode_string(string)
   translation = []
-  string_a = string.split('   ')
-  string_a.each do |word|
-    translation << decode_word(word)
-  end
-   puts translation.join(' ')
+  string.split('   ').each {|word| translation << decode_word(word)}
+  translation.join(' ')
 end
 
- decode_string('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+puts decode_char('.-')
+puts decode_word('-- -.--')
+puts decode_string('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
