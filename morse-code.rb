@@ -32,3 +32,14 @@ def decode_char(code)
 end
 
 puts decode_char(".-")
+
+def decode_word(string)
+  word_array = []
+code = string.split(" ")
+code.each do |char|
+  word_array << decode_char(char)
+end
+word_array.join
+end
+
+puts decode_word("-- -.--")
