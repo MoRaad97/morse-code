@@ -43,3 +43,14 @@ word_array.join
 end
 
 puts decode_word("-- -.--")
+
+def decode_string(string)
+  translation = []
+  string_a = string.split("   ")
+  string_a.each do |word|
+    translation << decode_word(word)
+  end
+   puts translation.join(" ")
+end
+
+ decode_string(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
