@@ -25,7 +25,7 @@ MORSE_DICT = {
   'x' => '-..-',
   'y' => '-.--',
   'z' => '--..'
-}.freeza
+}.freeze
 
 def decode_char(code)
   MORSE_DICT.key(code).upcase
