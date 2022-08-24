@@ -2,7 +2,7 @@
 
 # Morse Code Decoder
 
-> Description the project.
+> Simple Ruby Morse Code Decoder.
 
 
 ## Built With
@@ -24,7 +24,7 @@ Clone the repository to your local machine.
 
 | 👤 Name   | Github                                     | Twitter                                       | LinkedIn                                                |
 | --------- | ------------------------------------------ | --------------------------------------------- | ------------------------------------------------------- |
-| Mohammed Raad | [@Mohammed Raad](https://github.com/MoRaad97) |
+| Mohammed Raad | [@Mohammed Raad LinkedIn](https://github.com/MoRaad97) | [@Mohammed Raad Tiwtter](https://twitter.com/MohammedRaadz) | [@Mohammed LinkedIN](https://www.linkedin.com/in/mohammed-raad/) |
 
 | 👤 Name          | Github                                     | Twitter                                               | LinkedIn                                                       |
 | ---------------- | ------------------------------------------ | ----------------------------------------------------- | -------------------------------------------------------------- |
