@@ -33,13 +33,13 @@ end
 
 def decode_word(string)
   word_array = []
-  string.split(' ').each {|char| word_array << decode_char(char)}  
+  string.split.each { |char| word_array << decode_char(char) }
   word_array.join
-end  
+end
 
 def decode_string(string)
   translation = []
-  string.split('   ').each {|word| translation << decode_word(word)}
+  string.split('   ').each { |word| translation << decode_word(word) }
   translation.join(' ')
 end
 
